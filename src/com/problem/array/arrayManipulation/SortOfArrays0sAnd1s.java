@@ -10,7 +10,6 @@ public class SortOfArrays0sAnd1s {
         while (i < j) {
 
             // int[] arr = {0,1,0,0,1,1,1,0,0};
-
             if (arr[i] == 1 && arr[j] == 0) {
                 arr[i] = 0;
                 arr[j] = 1;
@@ -22,7 +21,7 @@ public class SortOfArrays0sAnd1s {
             if (arr[j] == 1) {
                 j--;
             }
-          
+
         }
 
         for (int iter : arr) {
@@ -35,6 +34,8 @@ public class SortOfArrays0sAnd1s {
 
         int[] arr = {0, 1, 0, 0, 1, 1, 1, 0, 0};
         sortArr(arr);
+
+        
     }
 
 }
